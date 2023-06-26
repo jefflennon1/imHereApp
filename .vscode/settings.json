@@ -1,5 +1,12 @@
 {
     "material-icon-theme.activeIconPack": "react",
     "material-icon-theme.hidesExplorerArrows": false,
-    "material-icon-theme.folders.theme": "specific"
+    "material-icon-theme.folders.theme": "specific",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ]
 }
