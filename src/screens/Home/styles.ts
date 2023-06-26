@@ -22,7 +22,28 @@ export const styles = StyleSheet.create({
       borderRadius: 5,
       color: '#FDFCFB',
       padding: 16,
-      fontSize: 16
+      fontSize: 16,
+      flex: 1,
+      marginRight: 15
+    },
+    buttonText:{
+      fontSize: 24,
+      color: '#FFFF'
+    },
+    button:{
+      width: 56,
+      height: 56,
+      borderRadius : 5,
+      backgroundColor: '#31CF67',
+      alignItems:'center',
+      justifyContent: 'center'
+    },
+    form:{
+      flex:1,
+      flexDirection:'row',
+      width: '100%',
+      marginTop: 20,
+      marginBottom:20
     }
 
   })
