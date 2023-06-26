@@ -7,43 +7,41 @@ export const styles = StyleSheet.create({
       padding: 24
     },
     eventName: {
-      color: '#FDFCFE',
-      fontWeight: 'bold',
+      color: '#FFF',
       fontSize: 24,
-      marginTop:48
-    }, 
-    eventDate:{
-      fontSize:16, 
-      color: '#6B6B6B'
+      fontWeight: 'bold',
+      marginTop: 48
     },
-    input:{
-      backgroundColor: '#1F1E25',
+    eventDate: {
+      color: '#6B6B6B',
+      fontSize: 16
+    },
+    input: {
+      flex: 1,
       height: 56,
+      backgroundColor: '#1F1E25',
       borderRadius: 5,
-      color: '#FDFCFB',
+      color: '#FFFF',
       padding: 16,
       fontSize: 16,
-      flex: 1,
-      marginRight: 15
+      marginRight: 12
     },
-    buttonText:{
-      fontSize: 24,
-      color: '#FFFF'
+    buttonText: {
+      color: '#FFF',
+      fontSize: 24
     },
-    button:{
+    button: {
       width: 56,
       height: 56,
-      borderRadius : 5,
+      borderRadius: 5,
       backgroundColor: '#31CF67',
-      alignItems:'center',
+      alignItems: 'center',
       justifyContent: 'center'
     },
-    form:{
-      flex:1,
-      flexDirection:'row',
+    form: {
       width: '100%',
-      marginTop: 20,
-      marginBottom:20
+      flexDirection: 'row',
+      marginTop: 36,
+      marginBottom: 42
     }
-
   })
