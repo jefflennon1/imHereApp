@@ -4,6 +4,16 @@ import { styles } from './styles'
 import { Participant } from '../components/Participant'
 
 export default function Home(): ReactElement {
+
+  function handleParticipantAdd() {
+    console.log('On add participant!')
+  }
+
+  function handleParticipantRemove() {
+    console.log('On remove participant!')
+  }
+
+
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>
@@ -28,14 +38,10 @@ export default function Home(): ReactElement {
         </TouchableOpacity>
       </View>
 
-      <Participant name="Jefferson" />
-      <Participant name="João" />
-      <Participant name="Jonas" />
+      <Participant name="Jefferson" onRemove={handleParticipantRemove} />
     </View>
   )
 
-  function handleParticipantAdd() {
 
-  }
 }
 
