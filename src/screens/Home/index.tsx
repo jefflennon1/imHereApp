@@ -28,9 +28,9 @@ export default function Home(): ReactElement {
         </TouchableOpacity>
       </View>
 
-      <Participant user="Jefferson" />
-      <Participant user="João" />
-      <Participant user="Jonas" />
+      <Participant name="Jefferson" />
+      <Participant name="João" />
+      <Participant name="Jonas" />
     </View>
   )
 
