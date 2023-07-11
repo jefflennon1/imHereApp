@@ -9,8 +9,8 @@ export default function Home(): ReactElement {
     console.log('On add participant!')
   }
 
-  function handleParticipantRemove() {
-    console.log('On remove participant!')
+  function handleParticipantRemove(name: string) {
+    console.log(`On remove participant! ${name}`)
   }
 
 
@@ -38,7 +38,7 @@ export default function Home(): ReactElement {
         </TouchableOpacity>
       </View>
 
-      <Participant name="Jefferson" onRemove={handleParticipantRemove} />
+      <Participant name="Jefferson" onRemove={() => handleParticipantRemove('joão')} />
     </View>
   )
 
