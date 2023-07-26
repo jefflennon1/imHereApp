@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
-import { Text, View, TextInput, TouchableOpacity, FlatList } from 'react-native'
+import { Text, View, TextInput, TouchableOpacity, FlatList, Alert } from 'react-native'
 import { styles } from './styles'
 import { Participant } from '../components/Participant'
 
@@ -9,10 +9,24 @@ export default function Home(): ReactElement {
     , 'Luana', 'Mayky']
 
   function handleParticipantAdd() {
+    if (participants.includes("Rodrigo")) {
+      return Alert.alert("Participante existente.");
+    }
     console.log('On add participant!')
   }
 
   function handleParticipantRemove(name: string) {
+    Alert.alert('Remover', `Deseja remover o partiicpante ${name} ?`, [
+      {
+        text: 'Sim',
+        onPress: () => Alert.alert("Deletado!"),
+        style: 'destructive'
+      },
+      {
+        text: 'Não',
+        style: 'cancel'
+      }
+    ])
     console.log(`On remove participant! ${name}`)
   }
 
@@ -34,7 +48,7 @@ export default function Home(): ReactElement {
           placeholderTextColor="#6b6b6b"
         />
 
-        <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
+        <TouchableOpacity style={styles.button} onPress={() => handleParticipantAdd()}>
           <Text style={styles.buttonText}>
             +
           </Text>

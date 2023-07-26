@@ -9,6 +9,7 @@ export default function App(): ReactElement {
       <StatusBar
         barStyle={'light-content'}
         translucent
+
       />
       <Home />
     </>
