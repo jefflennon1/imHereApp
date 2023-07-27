@@ -19,15 +19,16 @@ export default function Home(): ReactElement {
     Alert.alert('Remover', `Deseja remover o partiicpante ${name} ?`, [
       {
         text: 'Sim',
-        onPress: () => Alert.alert("Deletado!"),
+        onPress: () => {
+          setParticipants(prevState => prevState.filter(participant => participant !== name))
+        },
         style: 'destructive'
       },
       {
         text: 'Não',
         style: 'cancel'
       }
-    ])
-    console.log(`On remove participant! ${name}`)
+    ]);
   }
 
 
