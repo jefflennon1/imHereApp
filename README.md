@@ -1,10 +1,12 @@
+![PROJETO 01 IGNITE](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExem5lYW52YWx4c2ZwOXV4Nm96djk0MmY4ZDVmcG40a2Y5bHd1NXM0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uECyh6zDsKioWGDX5T/giphy.gif)
+
 <p align="center">
   An opinionated template that will allow you to start a new React Native project quickly with Expo, TypeScript, Prettier, ESLint, and some custom configurations that will make development process better. 💖
 </p>
 
 <h1 align="center">Expo TypeScript</h1>
 <br>
- ![PROJETO 01 IGNITE](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExem5lYW52YWx4c2ZwOXV4Nm96djk0MmY4ZDVmcG40a2Y5bHd1NXM0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uECyh6zDsKioWGDX5T/giphy.gif)
+ 
 
 Using [Expo 48](https://blog.expo.dev/expo-sdk-48-ccb8302e231).
 
