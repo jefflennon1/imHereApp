@@ -1,6 +1,4 @@
-![PROJETO 01 IGNITE](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExem5lYW52YWx4c2ZwOXV4Nm96djk0MmY4ZDVmcG40a2Y5bHd1NXM0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uECyh6zDsKioWGDX5T/giphy.gif)
-
-<p align="center">
+ <p align="center">
   An opinionated template that will allow you to start a new React Native project quickly with Expo, TypeScript, Prettier, ESLint, and some custom configurations that will make development process better. 💖
 </p>
 
@@ -23,6 +21,9 @@ Please read [Starting React Native Project in 2023](https://dev.to/vladimirvovk/
 Please use the `npx expo eject` command to switch to the "bare" react-native app. See the [docs](https://docs.expo.dev/introduction/managed-vs-bare/) to learn about the difference between managed and bare workflows.
 
 Happy hacking! 🤓
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExem5lYW52YWx4c2ZwOXV4Nm96djk0MmY4ZDVmcG40a2Y5bHd1NXM0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uECyh6zDsKioWGDX5T/giphy.gif" alt="PROJECT 01 IGNITE">
+</p>
 
 ## Features
 
